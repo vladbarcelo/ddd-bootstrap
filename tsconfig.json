@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "incremental": true,
+    "strictNullChecks": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "baseUrl": "./",
+    "paths": {
+        "src/*": [
+            "./src/*"
+        ]
+    },
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "lib": [
+      "es2015"
+  ],
+  "include": [
+      "**/*.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}
